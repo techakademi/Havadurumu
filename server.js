@@ -34,5 +34,5 @@ app.post('/', function (req, res) {
 })
 
 app.listen(PORT, () => {
-  console.log(`Our app is running on port ${ PORT }`);
+  console.log(`Bu uygulama ${ PORT } numaralı port üzerinden çalışmaktadır.`);
 });
