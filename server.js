@@ -4,7 +4,7 @@ const request = require('request');
 const app = express()
 const PORT = process.env.PORT || 3000;
 
-const apiKey = 'kendi api idnizi kullanın burada';
+const apiKey = 'api key'ini buraya yaz';
 
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }));
